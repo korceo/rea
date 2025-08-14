@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализ квартир</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        h1 {
+            color: #222;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 400;
+            letter-spacing: -0.5px;
+        }
+        
+        .graph-container {
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        
+        .graph-img {
+            width: 100%;
+            border-bottom: 1px solid #eee;
+            display: block;
+        }
+        
+        .graph-description {
+            padding: 20px;
+        }
+        
+        h2 {
+            color: #444;
+            margin-top: 0;
+            font-weight: 500;
+            font-size: 1.9em;
+        }
+        
+        p {
+            margin-bottom: 0;
+            color: #555;
+            font-size: 0.99em;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <h1>Анализ объявлений о аренде квартир</h1>
+    
+    <!-- График 1 -->
+    <div class="graph-container">
+        <img src="figures/Доля объявлений с подземной парковкой.svg" class="graph-img">
+        <div class="graph-description">
+            <h2>1. Типы парковок</h2>
+            <p>Круговая диаграмма демонстрирует соотношение объявлений с подземной парковкой и другими вариантами.</p>        </div>
+    </div>
+    
+    <!-- График 2 -->
+    <div class="graph-container">
+        <img src="figures/Разрешения на детей и животных в объявлениях.svg" class="graph-img">
+        <div class="graph-description">
+            <h2>2. Разрешения на детей и животных</h2>
+            <p>Круговая диаграмма демонстрирует соотношение объявлений с подземной парковкой и другими вариантами.</p>
+        </div>
+    </div>
+    
+    <!-- График 3 -->
+    <div class="graph-container">
+        <img src="figures/Распределение квартир по количеству комнат.svg"  class="graph-img">
+        <div class="graph-description">
+            <h2>3. Распределение по количеству комнат</h2>
+            <p>Гистограмма показывает количество объявлений для квартир с 1, 2, 3 и более комнатами.</p>        </div>
+    </div>
+    
+    <!-- График 4 -->
+    <div class="graph-container">
+        <img src="figures/Доля пропусков по колонкам.svg"  class="graph-img">
+        <div class="graph-description">
+            <h2>4. Доля пропущенных данных в датасете</h2>
+            <p>График отображает количество пропущенных данных в столбцах объявлений</p>
+        </div>
+    </div>
+
+    <!-- График 5 -->
+    <div class="graph-container">
+        <img src="figures/Разрешения на детей и животных в объявлениях.svg"  class="graph-img">
+        <div class="graph-description">
+            <h2>5. Количество квартир по городам России</h2>
+            <p>Гистограмма визуализирует распределение объвлений по городам</p>
+        </div>
+    </div>
+
+    <!-- График 6 -->
+    <div class="graph-container">
+        <img src="figures/Распределение валюты в объявлениях.svg" class="graph-img">
+        <div class="graph-description">
+            <h2>6. Распределение валют в объвлениях</h2>
+            <p>Показывает количество объвлений относительно их валют</p>
+        </div>
+    </div>
+
+    <!-- График 7 -->
+    <div class="graph-container">
+        <img src="figures/Распределение по округам.svg"  class="graph-img">
+        <div class="graph-description">
+            <h2>7. Распределение объявлений по округам Москвы</h2>
+            <p>Визуализация относительного распределения косательно районам Москвы</p>
+        </div>
+    </div>
+
+    <!-- График 8 -->
+    <div class="graph-container">
+        <img src="figures/Распределение цены.svg"  class="graph-img">
+        <div class="graph-description">
+            <h2>8. Распределение цены в объвлениях</h2>
+            <p>Показывает количество объявлений по стоимости</p>
+        </div>
+    </div>
+
+    <!-- График 9 -->
+    <div class="graph-container">
+        <img src="figures/Распределение площади.svg"  class="graph-img">
+        <div class="graph-description">
+            <h2>9. Распределение площади(кв. м.) в объвлениях</h2>
+            <p>Показывает количество объвлений по их площади</p>
+        </div>
+    </div>
+</body>
+</html>
